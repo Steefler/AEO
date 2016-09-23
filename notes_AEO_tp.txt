@@ -1,0 +1,24 @@
+
+- Déclaration d'un composant
+entity nom_composant is
+ port (nom1, nom2, ... : in/out type;
+ );
+end nom_composant;
+
+
+##Dans architecture
+
+- Fil internes
+signal nom1, nom2, ... : type;
+
+- Déclarer la réutilisation d'un composant
+component nom_composant
+    port ( "signature de la déclaration" );
+end component;
+
+###Dans le begin de architecture
+
+- Instanciation du composant
+nom_instance : nom_composant port map (nom_fil_composant=>nom_fil_architecture, ...);
+
+

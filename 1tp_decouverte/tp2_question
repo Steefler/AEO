@@ -1,0 +1,42 @@
+
+
+Q1
+
+entity exo1 is
+port (
+	a : in STD_LOGIC_VECTOR (4 downto 0);
+	s : out STD_LOGIC_VECTOR (2 downto 0);
+);
+
+end exo1;
+
+architecture aexo1 of exo1 is
+begin
+with s select
+	s <= "101" when "01001";
+		"011" when "10010";
+		"001" when others;
+end aexo1;
+
+
+Q2
+
+
+with adr select
+	s <= a when "00";
+		b when "01";
+		c when "10";
+		d when others;
+
+
+s <= a when adr = "00" else
+		b when adr = "01" else
+		c when adr = "10" else
+		d;
+
+Q3
+
+un NOR (not xor)
+Il manque les bibliothèques.
+
+
