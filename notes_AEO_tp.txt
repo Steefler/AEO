@@ -5,6 +5,21 @@ entity nom_composant is
  );
 end nom_composant;
 
+## When Else / Select
+
+S <= E0 when (SEL0=‘0’ and  SEL1=‘0’) else  
+        E1 when (SEL0=‘1’ and SEL1=‘0’) else 
+        E2 when (SEL0=‘0’ and SEL1=‘1’) else
+        E3;
+
+with SEL1&SEL0 select 
+    S <= E0 when "00",
+            E1 when "01",
+            E2 when "10",
+            E3 when others;
+
+
+
 
 ##Dans architecture
 
@@ -22,7 +37,9 @@ end component;
 nom_instance : nom_composant port map (nom_fil_composant=>nom_fil_architecture, ...);
 
 
-####Process
+
+
+##Process
 ENTITY mux4_1 IS 
 PORT (e3, e2, e1, e0 : IN BIT; 
 
@@ -77,8 +94,10 @@ Boucle simple : [label :] loop instructions; end loop[ label];  il existe un exi
 Boucle while : [label :] while expression loop instructions; end loop[ label]; 
 Boucle for : [label :] for var in exp1 to exp2 loop instructions; end loop[ label];
 
+### Conversion
 
-
+SOME_VECTOR <= conv_std_logic_vector(SOME_INTEGER, 4); 
+use ieee.std_logic_arith.all;
 
 
 
