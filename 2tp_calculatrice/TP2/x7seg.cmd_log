@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/m1/raquin/Documents/S1/aeo/2tp_calculatrice/TP2/x7seg.xst" -ofn "/home/m1/raquin/Documents/S1/aeo/2tp_calculatrice/TP2/x7seg.syr" 
+netgen -intstyle ise -ar Structure -tm x7seg -w -dir netgen/synthesis -ofmt vhdl -sim x7seg.ngc x7seg_synthesis.vhd 

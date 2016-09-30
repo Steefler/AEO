@@ -23,6 +23,13 @@ nom_instance : nom_composant port map (nom_fil_composant=>nom_fil_architecture, 
 
 
 ####Process
+ENTITY mux4_1 IS 
+PORT (e3, e2, e1, e0 : IN BIT; 
+
+    c : IN INTEGER RANGE 0 TO 3;
+    s : OUT BIT);
+
+END mux4_1;
 
 PROCESS("liste de sensibilité nom1, nom2")
 BEGIN
@@ -39,5 +46,40 @@ BEGIN
 		WHEN 1 => s <= e1;
 		WHEN 2 => s <= e2;
 		WHEN 3 => s <= e3;
+		WHEN OTHERS => ...  pour donner une valeur par défaut à tous les cas restant.
 	END CASE;
-END PROCESS; 
+END PROCESS;
+
+des INTEGER (exemple: IF c = 3         -- base 10 
+                      IF c = 16#13#    -- base 16) 
+des BIT (exemple:  IF s = ‘1’) 
+des BUS (exemples: IF s = "1100"       -- base 2 sur 4 bits
+                   IF s = X"2C"        -- hexa sur 8 bits )
+
+PROCESS(e)
+VARIABLE nombre_1 : INTEGER;
+BEGIN
+
+    nombre_1 := 0;
+    IF e(2) = '1' THEN
+        nombre_1 := nombre_1 +1;
+    END IF;
+    IF e(1) = '1' THEN
+        nombre_1 := nombre_1 +1;
+    END IF;
+    IF e(0) = '1' THEN
+        nombre_1 := nombre_1 +1;
+    END IF;
+    s <= nombre_1;
+    END PROCESS;
+
+Boucle simple : [label :] loop instructions; end loop[ label];  il existe un exit pour sortir de la boucle, un next pour passer  à l'itération suivante.
+Boucle while : [label :] while expression loop instructions; end loop[ label]; 
+Boucle for : [label :] for var in exp1 to exp2 loop instructions; end loop[ label];
+
+
+
+
+
+
+
