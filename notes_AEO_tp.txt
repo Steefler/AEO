@@ -22,3 +22,22 @@ end component;
 nom_instance : nom_composant port map (nom_fil_composant=>nom_fil_architecture, ...);
 
 
+####Process
+
+PROCESS("liste de sensibilité nom1, nom2")
+BEGIN
+         IF (c = 0) THEN s <= e0; 
+        ELSIF (c = 1) THEN s <= e1; 
+        ELSIF (c = 2) THEN s <= e2; 
+	ELSIF (c = 3) THEN s <= e3; 
+	END IF;
+END PROCESS;
+
+BEGIN
+	CASE c IS
+		WHEN 0 => s <= e0;
+		WHEN 1 => s <= e1;
+		WHEN 2 => s <= e2;
+		WHEN 3 => s <= e3;
+	END CASE;
+END PROCESS; 
