@@ -5,6 +5,21 @@ entity nom_composant is
  );
 end nom_composant;
 
+## When Else / Select
+
+S <= E0 when (SEL0=‘0’ and  SEL1=‘0’) else  
+        E1 when (SEL0=‘1’ and SEL1=‘0’) else 
+        E2 when (SEL0=‘0’ and SEL1=‘1’) else
+        E3;
+
+with SEL1&SEL0 select 
+    S <= E0 when "00",
+            E1 when "01",
+            E2 when "10",
+            E3 when others;
+
+
+
 
 ##Dans architecture
 
@@ -20,5 +35,70 @@ end component;
 
 - Instanciation du composant
 nom_instance : nom_composant port map (nom_fil_composant=>nom_fil_architecture, ...);
+
+
+
+
+##Process
+ENTITY mux4_1 IS 
+PORT (e3, e2, e1, e0 : IN BIT; 
+
+    c : IN INTEGER RANGE 0 TO 3;
+    s : OUT BIT);
+
+END mux4_1;
+
+PROCESS("liste de sensibilité nom1, nom2")
+BEGIN
+         IF (c = 0) THEN s <= e0; 
+        ELSIF (c = 1) THEN s <= e1; 
+        ELSIF (c = 2) THEN s <= e2; 
+	ELSIF (c = 3) THEN s <= e3; 
+	END IF;
+END PROCESS;
+
+BEGIN
+	CASE c IS
+		WHEN 0 => s <= e0;
+		WHEN 1 => s <= e1;
+		WHEN 2 => s <= e2;
+		WHEN 3 => s <= e3;
+		WHEN OTHERS => ...  pour donner une valeur par défaut à tous les cas restant.
+	END CASE;
+END PROCESS;
+
+des INTEGER (exemple: IF c = 3         -- base 10 
+                      IF c = 16#13#    -- base 16) 
+des BIT (exemple:  IF s = ‘1’) 
+des BUS (exemples: IF s = "1100"       -- base 2 sur 4 bits
+                   IF s = X"2C"        -- hexa sur 8 bits )
+
+PROCESS(e)
+VARIABLE nombre_1 : INTEGER;
+BEGIN
+
+    nombre_1 := 0;
+    IF e(2) = '1' THEN
+        nombre_1 := nombre_1 +1;
+    END IF;
+    IF e(1) = '1' THEN
+        nombre_1 := nombre_1 +1;
+    END IF;
+    IF e(0) = '1' THEN
+        nombre_1 := nombre_1 +1;
+    END IF;
+    s <= nombre_1;
+    END PROCESS;
+
+Boucle simple : [label :] loop instructions; end loop[ label];  il existe un exit pour sortir de la boucle, un next pour passer  à l'itération suivante.
+Boucle while : [label :] while expression loop instructions; end loop[ label]; 
+Boucle for : [label :] for var in exp1 to exp2 loop instructions; end loop[ label];
+
+### Conversion
+
+SOME_VECTOR <= conv_std_logic_vector(SOME_INTEGER, 4); 
+use ieee.std_logic_arith.all;
+
+
 
 
