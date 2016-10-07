@@ -1,0 +1,1 @@
+vhdtdtfi -prj ping_pong -o /home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/fpd.vhi -lib work /home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong//fpd.vhd -module fpd -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

@@ -1,0 +1,56 @@
+xst -intstyle ise -ifn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.xst" -ofn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.syr" 
+netgen -intstyle ise -ar Structure -tm shift -w -dir netgen/synthesis -ofmt vhdl -sim shift.ngc shift_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 shift.ngc shift.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm shift -w -dir netgen/translate -ofmt vhdl -sim shift.ngd shift_translate.vhd 
+xst -intstyle ise -ifn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.xst" -ofn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 shift.ngc shift.ngd  
+xst -intstyle ise -ifn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.xst" -ofn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 shift.ngc shift.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 shift.ngc shift.ngd  
+xst -intstyle ise -ifn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.xst" -ofn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 shift.ngc shift.ngd  
+xst -intstyle ise -ifn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.xst" -ofn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 shift.ngc shift.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 shift.ngc shift.ngd  
+xst -intstyle ise -ifn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.xst" -ofn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 shift.ngc shift.ngd  
+xst -intstyle ise -ifn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.xst" -ofn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 shift.ngc shift.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 shift.ngc shift.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm shift -w -dir netgen/translate -ofmt vhdl -sim shift.ngd shift_translate.vhd 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_map.ncd shift.ngd shift.pcf 
+par -w -intstyle ise -ol high -mt off shift_map.ncd shift.ncd shift.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shift.twx shift.ncd -o shift.twr shift.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f shift.ut shift.ncd 
+xst -intstyle ise -ifn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.xst" -ofn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 shift.ngc shift.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_map.ncd shift.ngd shift.pcf 
+par -w -intstyle ise -ol high -mt off shift_map.ncd shift.ncd shift.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shift.twx shift.ncd -o shift.twr shift.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f shift.ut shift.ncd 
+xst -intstyle ise -ifn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.xst" -ofn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.syr" 
+xst -intstyle ise -ifn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.xst" -ofn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.syr" 
+xst -intstyle ise -ifn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.xst" -ofn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 shift.ngc shift.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_map.ncd shift.ngd shift.pcf 
+par -w -intstyle ise -ol high -mt off shift_map.ncd shift.ncd shift.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shift.twx shift.ncd -o shift.twr shift.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f shift.ut shift.ncd 
+xst -intstyle ise -ifn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.xst" -ofn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 shift.ngc shift.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_map.ncd shift.ngd shift.pcf 
+par -w -intstyle ise -ol high -mt off shift_map.ncd shift.ncd shift.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shift.twx shift.ncd -o shift.twr shift.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f shift.ut shift.ncd 
+xst -intstyle ise -ifn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.xst" -ofn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 shift.ngc shift.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_map.ncd shift.ngd shift.pcf 
+par -w -intstyle ise -ol high -mt off shift_map.ncd shift.ncd shift.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shift.twx shift.ncd -o shift.twr shift.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f shift.ut shift.ncd 
+xst -intstyle ise -ifn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.xst" -ofn "/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/shift.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 shift.ngc shift.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_map.ncd shift.ngd shift.pcf 
+par -w -intstyle ise -ol high -mt off shift_map.ncd shift.ncd shift.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shift.twx shift.ncd -o shift.twr shift.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f shift.ut shift.ncd 

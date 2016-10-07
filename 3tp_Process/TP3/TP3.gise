@@ -248,59 +248,47 @@
     <transform xil_pn:end_ts="1475230405" xil_pn:in_ck="-6050162353398163002" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-6868167928287338130" xil_pn:start_ts="1475230403">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_ngo"/>
-      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
-      <outfile xil_pn:name="calc.bld"/>
-      <outfile xil_pn:name="calc.ngd"/>
-      <outfile xil_pn:name="calc_ngdbuild.xrpt"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1475230410" xil_pn:in_ck="-6050160946989544761" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1475230405">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
-      <outfile xil_pn:name="calc.pcf"/>
-      <outfile xil_pn:name="calc_map.map"/>
-      <outfile xil_pn:name="calc_map.mrp"/>
-      <outfile xil_pn:name="calc_map.ncd"/>
-      <outfile xil_pn:name="calc_map.ngm"/>
-      <outfile xil_pn:name="calc_map.xrpt"/>
-      <outfile xil_pn:name="calc_summary.xml"/>
-      <outfile xil_pn:name="calc_usage.xml"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1475230417" xil_pn:in_ck="-2672625061949927456" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1475230410">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
-      <outfile xil_pn:name="calc.ncd"/>
-      <outfile xil_pn:name="calc.pad"/>
-      <outfile xil_pn:name="calc.par"/>
-      <outfile xil_pn:name="calc.ptwx"/>
-      <outfile xil_pn:name="calc.unroutes"/>
-      <outfile xil_pn:name="calc.xpi"/>
-      <outfile xil_pn:name="calc_pad.csv"/>
-      <outfile xil_pn:name="calc_pad.txt"/>
-      <outfile xil_pn:name="calc_par.xrpt"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1475230421" xil_pn:in_ck="4348844052598" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="2839376474824664557" xil_pn:start_ts="1475230417">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
-      <outfile xil_pn:name="calc.bgn"/>
-      <outfile xil_pn:name="calc.bit"/>
-      <outfile xil_pn:name="calc.drc"/>
-      <outfile xil_pn:name="calc.ut"/>
-      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
-      <outfile xil_pn:name="webtalk.log"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1475230417" xil_pn:in_ck="-6050346592927152573" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1475230415">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
-      <outfile xil_pn:name="calc.twr"/>
-      <outfile xil_pn:name="calc.twx"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1474622272" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:start_ts="1474622271">
       <status xil_pn:value="SuccessfullyRun"/>

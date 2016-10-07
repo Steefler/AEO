@@ -1,0 +1,3 @@
+vhdl work "fpd.vhd"
+vhdl work "clk_div.vhd"
+vhdl work "shift.vhd"

@@ -48,4 +48,6 @@ NET "anodes<1>" LOC = "N15";
 NET "anodes<2>" LOC = "P18";
 NET "anodes<3>" LOC = "P17";
 
+NET "clk"       LOC = "V10";
+
 djtgcfg -d Nexys3 prog -i 0 -f
