@@ -31,6 +31,7 @@ component nom_composant
     port ( "signature de la déclaration" );
 end component;
 
+
 ###Dans le begin de architecture
 
 - Instanciation du composant
@@ -100,5 +101,21 @@ SOME_VECTOR <= conv_std_logic_vector(SOME_INTEGER, 4);
 use ieee.std_logic_arith.all;
 
 
+#Generic
+Dans architecture
 
+
+component piso
+     generic ( width : integer := 7 );
+port  (  clk : in std_logic;
+            load : in std_logic;
+            in1 : in std_logic_vector(width downto 0);
+            out1 : out std_logic
+      );
+end component;
+
+begin
+
+piso1 : piso generic map (width => 7) port map(clk,load1,in1,o1);
+piso2 : piso generic map (width => 3) port map(clk,load2,in2,o2);
 
