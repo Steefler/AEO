@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl unite_lecture_ecriture_des_registres_drc.vhf -w /home/l2/noirbent/Documents/Archi/Unite_de_controle_e_unite_de_traitement/unite_lecture_ecriture_des_registres.sch 
+sch2sym -intstyle ise -family spartan3e -refsym unite_lecture_ecriture_des_registres /home/l2/noirbent/Documents/Archi/Unite_de_controle_e_unite_de_traitement/unite_lecture_ecriture_des_registres.sch /home/l2/noirbent/Documents/Archi/Unite_de_controle_e_unite_de_traitement/unite_lecture_ecriture_des_registres.sym 

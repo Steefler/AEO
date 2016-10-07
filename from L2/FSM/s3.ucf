@@ -1,0 +1,6 @@
+NET "b<0>" LOC = "B18";
+NET "b<1>" LOC = "D18";
+NET "b<2>" LOC = "E18";
+NET "BTN3" LOC = "H13";
+NET "LED<0>" LOC = "J14";
+NET "clk" LOC = "B8";

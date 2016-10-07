@@ -1,0 +1,6 @@
+sch2sym -intstyle ise -family spartan3e -refsym Mux8_4 /home/l2/noirbent/Documents/Archi/Unite_de_controle_e_unite_de_traitement/Mux8_4.sch /home/l2/noirbent/Documents/Archi/Unite_de_controle_e_unite_de_traitement/Mux8_4.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Mux8_4_drc.vhf -w /home/l2/noirbent/Documents/Archi/Unite_de_controle_e_unite_de_traitement/Mux8_4.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Mux8_4_drc.vhf -w /home/l2/noirbent/Documents/Archi/Unite_de_controle_e_unite_de_traitement/Mux8_4.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Mux8_4_drc.vhf -w /home/l2/noirbent/Documents/Archi/Unite_de_controle_e_unite_de_traitement/Mux8_4.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Mux8_4_drc.vhf -w /home/l2/noirbent/Documents/Archi/Unite_de_controle_e_unite_de_traitement/Mux8_4.sch 
+sch2sym -intstyle ise -family spartan3e -refsym Mux8_4 /home/l2/noirbent/Documents/Archi/Unite_de_controle_e_unite_de_traitement/Mux8_4.sch /home/l2/noirbent/Documents/Archi/Unite_de_controle_e_unite_de_traitement/Mux8_4.sym 

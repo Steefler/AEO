@@ -1,0 +1,3 @@
+sch2sym -intstyle ise -family spartan3e -refsym toplevel /home/l2/noirbent/Documents/Archi/Unite_de_controle_e_unite_de_traitement/toplevel.sch /home/l2/noirbent/Documents/Archi/Unite_de_controle_e_unite_de_traitement/toplevel.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl toplevel_drc.vhf -w /home/l2/noirbent/Documents/Archi/Unite_de_controle_e_unite_de_traitement/toplevel.sch 
+sch2sym -intstyle ise -family spartan3e -refsym toplevel /home/l2/noirbent/Documents/Archi/Unite_de_controle_e_unite_de_traitement/toplevel.sch /home/l2/noirbent/Documents/Archi/Unite_de_controle_e_unite_de_traitement/toplevel.sym 

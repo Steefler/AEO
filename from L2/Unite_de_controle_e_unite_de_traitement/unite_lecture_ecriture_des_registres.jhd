@@ -1,0 +1,5 @@
+MODULE unite_lecture_ecriture_des_registres
+	SUBMODULE Mux8_4
+		INSTANCE XLXI_13
+	SUBMODULE Mux8_4
+		INSTANCE XLXI_14
