@@ -1,0 +1,3 @@
+vhdtdtfi -prj TP5 -o /home/m1/noirbent/AEO/5tp_finite_state/TP5/digicode.vhi -lib work /home/m1/noirbent/AEO/5tp_finite_state/TP5//digicode.vhd -module digicode -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 
+vhdtdtfi -prj TP5 -o /home/m1/noirbent/AEO/5tp_finite_state/TP5/digicode.vhi -lib work /home/m1/noirbent/AEO/5tp_finite_state/TP5//digicode.vhd -module digicode -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 
+xst -intstyle ise -ifn "/home/m1/noirbent/AEO/5tp_finite_state/TP5/digicode.xst" -ofn "/home/m1/noirbent/AEO/5tp_finite_state/TP5/digicode.syr" 

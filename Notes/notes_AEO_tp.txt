@@ -1,7 +1,30 @@
 
+Exam tp
+
+
+8h30 num paire
+10h30 num impaire
+
+Celui de 8h30 doit venir avec la carte
+
+
+Phillipe paire
+Marion impaire
+
+
+
+
+
 La plupart de ces élèments de syntaxes peuvent se retrouver dans les templates
 Edit>Language Templates>VHDL
 ==============================================================================
+
+djtgcfg enum
+
+djtgcfg -d Nexys3 prog -i 0 -f
+
+
+
 
 - Déclaration d'un composant
 entity nom_composant is

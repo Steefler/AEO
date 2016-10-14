@@ -1,0 +1,2 @@
+vhdl work "decod4to2.vhd"
+vhdl work "state_fsm.vhd"

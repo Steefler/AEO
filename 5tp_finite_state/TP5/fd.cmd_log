@@ -1,0 +1,1 @@
+vhdtdtfi -prj TP5 -o /home/m1/noirbent/AEO/5tp_finite_state/TP5/fd.vhi -lib work /home/m1/noirbent/AEO/5tp_finite_state/TP5//fd.vhd -module fd -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

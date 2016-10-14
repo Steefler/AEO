@@ -1,0 +1,4 @@
+vhdl work "fde.vhd"
+vhdl work "fd.vhd"
+vhdl work "btn_pulse.vhd"
+vhdl work "btn_pulse_5.vhd"
