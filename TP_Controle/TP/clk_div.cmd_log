@@ -1,0 +1,1 @@
+vhdtdtfi -prj TP -o /home/m1/noirbent/AEO/TP_Controle/TP/clk_div.vhi -lib work /home/m1/noirbent/AEO/TP_Controle/TP//clk_div.vhd -module clk_div -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

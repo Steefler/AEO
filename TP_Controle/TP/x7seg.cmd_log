@@ -1,0 +1,1 @@
+vhdtdtfi -prj TP -o /home/m1/noirbent/AEO/TP_Controle/TP/x7seg.vhi -lib work /home/m1/noirbent/AEO/TP_Controle/TP//x7seg.vhd -module x7seg -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

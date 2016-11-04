@@ -6,6 +6,7 @@ NET "switches<4>" LOC = "N8";
 NET "switches<5>" LOC = "U8";
 NET "switches<6>" LOC = "V8";
 NET "switches<7>" LOC = "T5";
+
 NET "led<0>" LOC = "U16";
 NET "led<1>" LOC = "V16";
 NET "led<2>" LOC = "U15";
@@ -14,6 +15,7 @@ NET "led<4>" LOC = "M11";
 NET "led<5>" LOC = "N11";
 NET "led<6>" LOC = "R11";
 NET "led<7>" LOC = "T11";
+
 NET "CA" LOC = "T17";
 NET "CB" LOC = "T18";
 NET "CC" LOC = "U17";
