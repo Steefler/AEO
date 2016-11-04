@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/m1/raquin/Documents/S1/aeo/exo/exo_clock/flipflop_sync.xst" -ofn "/home/m1/raquin/Documents/S1/aeo/exo/exo_clock/flipflop_sync.syr" 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/m1/raquin/Documents/S1/aeo/exo/exo_clock/C16b.xst" -ofn "/home/m1/raquin/Documents/S1/aeo/exo/exo_clock/C16b.syr" 

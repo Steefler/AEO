@@ -1,0 +1,39 @@
+ISim log file
+Running: /home/m1/raquin/Documents/S1/aeo/exo/exo_clock/C16b_isim_beh.exe -gui -tclbatch isim.cmd -wdb /home/m1/raquin/Documents/S1/aeo/exo/exo_clock/C16b_isim_beh.wdb 
+ISim M.81d (signature 0x9ca8bed6)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /c16b/raz 0 -radix bin
+# isim force add /c16b/clk 0 -radix hex -value 1 -radix hex -time 5 ns -repeat 10 ns
+# isim force add /c16b/clk 0 -radix hex -value 1 -radix hex -time 5 ns -repeat 10 ns
+# run 1.00us
+at 1005 ns, Instance /c16b/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# isim force add /c16b/raz 1 -radix bin
+# isim force add /c16b/raz 1 -radix bin
+# run 1.00us
+# isim force add /c16b/raz 0 -radix bin
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# exit 0

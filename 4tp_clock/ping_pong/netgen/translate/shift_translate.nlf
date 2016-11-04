@@ -1,0 +1,20 @@
+Release 12.4 - netgen M.81d (lin64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm shift -w
+-dir netgen/translate -ofmt vhdl -sim shift.ngd shift_translate.vhd  
+
+Reading design 'shift.ngd' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing VHDL netlist
+'/home/m1/raquin/Documents/S1/aeo/4tp_clock/ping_pong/netgen/translate/shift_tra
+nslate.vhd' ...
+INFO:NetListWriters:635 - The generated VHDL netlist contains Xilinx SIMPRIM
+   simulation primitives and has to be used with SIMPRIM library for correct
+   compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 192232 kilobytes
