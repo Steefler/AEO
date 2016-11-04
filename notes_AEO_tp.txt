@@ -119,3 +119,9 @@ begin
 piso1 : piso generic map (width => 7) port map(clk,load1,in1,o1);
 piso2 : piso generic map (width => 3) port map(clk,load2,in2,o2);
 
+
+#évenement horloge
+if (clk'event and clk='1') then
+
+
+
