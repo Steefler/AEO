@@ -1,0 +1,1 @@
+vhdtdtfi -prj TP -o /home/m1/noirbent/AEO/TP_Controle/TP/transform.vhi -lib work /home/m1/noirbent/AEO/TP_Controle/TP//top.vhd -module transform -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

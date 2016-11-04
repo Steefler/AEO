@@ -1,0 +1,5 @@
+vhdl work "x7seg.vhd"
+vhdl work "top.vhd"
+vhdl work "state.vhd"
+vhdl work "clkdiv.vhd"
+vhdl work "top2.vhd"
