@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"/home/spirita/M1S1/AEO/7tp_ homade/Nexys3V6/Hmaster.vhd" Line 555: Actual for formal port <arg fmt="%s" index="1">e_shift</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"/home/spirita/M1S1/AEO/7tp_ homade/Nexys3V6/Hmaster.vhd" Line 575: Actual for formal port <arg fmt="%s" index="1">e_shift</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"/home/spirita/M1S1/AEO/7tp_ homade/Nexys3V6/Hmaster.vhd" Line 594: Actual for formal port <arg fmt="%s" index="1">reset</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="unknown" >"/home/spirita/M1S1/AEO/7tp_ homade/Nexys3V6/Hmaster.vhd" Line 90: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="unknown" >"/home/spirita/M1S1/AEO/7tp_ homade/Nexys3V6/Hmaster.vhd" Line 92: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="unknown" >"/home/spirita/M1S1/AEO/7tp_ homade/Nexys3V6/Hmaster.vhd" Line 95: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="unknown" >"/home/spirita/M1S1/AEO/7tp_ homade/Nexys3V6/Hmaster.vhd" Line 449: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="unknown" >"/home/spirita/M1S1/AEO/7tp_ homade/Nexys3V6/Hmaster.vhd" Line 488: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="unknown" >"/home/spirita/M1S1/AEO/7tp_ homade/Nexys3V6/Hmaster.vhd" Line 514: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="unknown" >"/home/spirita/M1S1/AEO/7tp_ homade/Nexys3V6/Hmaster.vhd" Line 540: Range is empty (null range)
+</msg>
+
+</messages>
+

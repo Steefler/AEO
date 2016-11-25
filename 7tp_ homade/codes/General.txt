@@ -1,0 +1,49 @@
+
+constant  rom : rom_array := ( 
+ x"",
+ x"",
+ x"",
+ x"",
+ x"",
+ x"",
+ x"" 
+);
+
+constant  rom : rom_array := ( 
+ x"0C00_0000_000C_FFFF",
+ x"201F_A402_8804_8003",
+ x"A002_03FB_1400_FFFF",
+ x"1000_0000_0004_1C00",
+ x"FFFF_FFFF_FFFF_FFFF",
+ x"1c00_ffff_ffff_ffff",
+ x"ffff_ffff_ffff_ffff" 
+);
+
+
+## Default Zip
+
+constant  rom : rom_array := ( 
+ --  master code 
+ x"0C00_0000_000C_FFFF", -- 0x0000
+ x"201F_A402_8804_8003", -- 0x0004
+ x"A002_03FB_1400_FFFF", -- 0x0008
+ x"1000_0000_0004_1C00", -- 0x000c
+ x"FFFF_FFFF_FFFF_FFFF", -- 0x0010
+ --  slave code 
+ x"1c00_ffff_ffff_ffff", -- 0x0000
+ x"ffff_ffff_ffff_ffff"  -- 0x0004
+);
+
+
+## TP5
+
+constant  rom : rom_array := ( 
+ x"0C_00_00_0000_0C_FF_FF",
+ x"20_1F_A4_0288_04_80_03",
+ x"A0_02_03_FB14_00_FF_FF",
+ x"10_00_00_0000_04_1C_00",
+ x"FF_FF_FF_FFFF_FF_FF_FF",
+ x"1C_00_FF_FFFF_FF_FF_FF",
+ x"FF_FF_FF_FFFF_FF_FF_FF"
+);
+

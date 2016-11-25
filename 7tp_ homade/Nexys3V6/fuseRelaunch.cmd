@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/spirita/M1S1/AEO/7tp_ homade/Nexys3V6/masterbench_isim_beh.exe" -prj "/home/spirita/M1S1/AEO/7tp_ homade/Nexys3V6/masterbench_beh.prj" "work.masterbench" 
